@@ -16,3 +16,20 @@ for (var i= 0; i < presidents.length; i++) {
 var output = "President # " + number[i] + " was " + presidents[i];
   console.log(output);
 }
+
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
+for (var key in antSpecies) {
+  console.log("Ant Species " + key);
+}
