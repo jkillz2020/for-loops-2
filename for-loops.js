@@ -10,7 +10,9 @@
 // }
 
 var presidents = ["George Washington", "John Adams", "Thomas Jefferson"];
+var number = [1, 2, 3]
 
-for (var presidents; presidents.length.i; presidents++) {
-  console.log("President # + i", presidents)
+for (var i= 0; i < presidents.length; i++) {
+var output = "President # " + number[i] + " was " + presidents[i];
+  console.log(output);
 }
